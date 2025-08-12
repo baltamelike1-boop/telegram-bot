@@ -3,7 +3,7 @@ import telegram
 import os
 
 TOKEN = os.getenv("BOT_TOKEN")
-bot = telegram.Bot(token=8461627596:AAG_AEvozCCFL_JrV5ZeJ9pGKPN75rn2Zfk)
+bot = telegram.Bot(token="8461627596:AAG_AEvozCCFL_JrV5ZeJ9pGKPN75rn2Zfk")
 app = Flask(__name__)
 
 @app.route('/')
